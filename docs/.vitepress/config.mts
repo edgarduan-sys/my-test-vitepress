@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Gopxl Training",
   description: "This is a demo project for Gopxl Training Manual",
+  base: "/my-test-vitepress/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
